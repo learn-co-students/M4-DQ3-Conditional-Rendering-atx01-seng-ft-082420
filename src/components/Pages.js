@@ -76,14 +76,14 @@ export class Pokemon extends React.Component {
           <Button onClick={this.getRandomPokemon}>Get New Pokemon</Button>
         </div>
       )
-    }
+    } 
     return (
       <div style={{height: 300}}>
         <Loader active size='large'>Loading</Loader>
       </div>
     )
+  
   }
-
   render() {
     return (
       <Card fluid>
